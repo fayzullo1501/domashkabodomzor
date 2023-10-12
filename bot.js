@@ -63,7 +63,7 @@ bot.on('message', (msg) => {
       bot.sendMessage(adminChatId, `Новая заявка № ${userData[userId].requestId}:
 Имя: ${userData[userId].name}
 Количество порций: ${userData[userId].portions}
-Тип заказа: ${userData[userId].addressType}
+Компания: ${userData[userId].addressType}
 Адрес: ${userData[userId].address}
 Номер телефона: ${userData[userId].phoneNumber}
 Аккаунт клиента: @${username}`);
